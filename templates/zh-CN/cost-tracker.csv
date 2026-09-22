@@ -1,0 +1,2 @@
+date,task,tier,provider,model,input_size,elapsed_minutes,retries,human_review_minutes,cost_currency,cost_amount,result
+YYYY-MM-DD,示例任务,light,YOUR_PROVIDER,YOUR_MODEL,3 files,10,0,5,CNY,0.00,accepted

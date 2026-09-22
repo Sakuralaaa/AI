@@ -1,0 +1,5 @@
+id,action,owner,evidence,deadline,status
+A1,在三个不同时段重复座位观察,待指定,source-notes.md现场观察,YYYY-MM-DD,proposed
+A2,统计可用插座和故障插座,待指定,访谈A与B,YYYY-MM-DD,proposed
+A3,设计安静区与可通话区小范围试点,待指定,访谈A与B,YYYY-MM-DD,proposed
+A4,评估30分钟临时离座标记,待指定,访谈A,YYYY-MM-DD,proposed

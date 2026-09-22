@@ -1,0 +1,6 @@
+action,source,target,reason,status,rollback
+rename,input/meeting note final.docx,output/2026-09-01_meeting-notes_v1.docx,normalize date and name,PLANNED,rename target back to source
+review,input/meeting-note-final2.docx,,possible duplicate or revision,REVIEW,no action yet
+rename,input/data august.xlsx,output/2026-08_monthly-data.xlsx,normalize month and topic,PLANNED,rename target back to source
+review,input/IMG_1042.png,,content unknown,REVIEW,no action yet
+review,input/report.pdf,,missing reliable date and title,REVIEW,no action yet
