@@ -10,13 +10,13 @@ documents:
     source_revision: v0.1.0
   - path: 02-choose-and-install.md
     status: synced
-    source_revision: v0.1.0
+    source_revision: v0.1.1
   - path: 03-models-and-providers.md
     status: synced
     source_revision: v0.1.0
   - path: 04-routing-and-proxy.md
     status: synced
-    source_revision: v0.1.0
+    source_revision: v0.1.1
   - path: 05-learn-to-drive.md
     status: synced
     source_revision: v0.1.0
@@ -34,4 +34,4 @@ documents:
     source_revision: v0.1.0
   - path: 10-troubleshooting.md
     status: synced
-    source_revision: v0.1.0
+    source_revision: v0.1.1

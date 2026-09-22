@@ -1,4 +1,4 @@
-<!-- lang: en | status: synced | source_revision: v0.1.0 | last_updated: 2026-09-22 | last_verified: 2026-09-22 -->
+<!-- lang: en | status: synced | source_revision: v0.1.1 | last_updated: 2026-09-22 | last_verified: 2026-09-22 -->
 
 # 04 | Switch the Fuel Path: CC-Switch and CLIProxyAPI
 
@@ -26,7 +26,7 @@ CPA here is a project abbreviation, not a `.cpa` file format.
 
 ## Safe CC-Switch onboarding
 
-1. Download from channels declared by [farion1231/cc-switch](https://github.com/farion1231/cc-switch).
+1. Download from the [latest CC-Switch release](https://github.com/farion1231/cc-switch/releases/latest): prefer the Windows `.msi`, choose `Windows-Portable.zip` for portability, use the macOS `.dmg`, and select an explicitly marked `arm64` asset on ARM64 hardware.
 2. Back up client configuration before the first switch.
 3. Add one provider you can verify independently.
 4. Learn the shape using placeholders:
@@ -81,7 +81,7 @@ This repository does not cover credential extraction, account sharing, or restri
 
 ## Sources and verification
 
-- [CC-Switch](https://github.com/farion1231/cc-switch)
+- [CC-Switch Releases](https://github.com/farion1231/cc-switch/releases/latest)
 - [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)
 - [Sub2API](https://github.com/Wei-Shaw/sub2api)
 - Last verified: 2026-09-22

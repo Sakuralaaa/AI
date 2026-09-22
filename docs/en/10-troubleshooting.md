@@ -1,4 +1,4 @@
-<!-- lang: en | status: synced | source_revision: v0.1.0 | last_updated: 2026-09-22 | last_verified: 2026-09-22 -->
+<!-- lang: en | status: synced | source_revision: v0.1.1 | last_updated: 2026-09-22 | last_verified: 2026-09-22 -->
 
 # 10 | Roadside Assistance: Troubleshooting
 
@@ -19,13 +19,17 @@ Diagnose one layer at a time: workspace and direct official access first, then c
 
 ## Installation
 
-### Microsoft Store will not download
+### A GitHub Release download is slow or interrupted
 
-Check network, Store sign-in, system update, and organizational policy. Try the `winget` path in OpenAI documentation. If using a community mirror, verify architecture, SHA256, manifest, and digital signature. Contact the administrator when policy blocks sideloading.
+Confirm that the page is the project Release listed by this repository, not a search advertisement or reposting site. Download again and compare it with `SHA256SUMS.txt`; delete a damaged file when its hash differs. Do not switch to an unverifiable file-sharing copy merely for speed.
 
 ### MSIX installation fails
 
-Common causes include x64/ARM64 mismatch, missing App Installer, signature problems, and device policy. Do not replace it with an unknown “patched” package.
+Common causes include x64/ARM64 mismatch, missing App Installer, an unexpected signature, an unavailable AppX deployment service, and policy that blocks sideloading. Follow [Chapter 02](02-choose-and-install.md) to recheck architecture, SHA256, manifest, and signature. Contact the administrator when policy blocks installation; do not use a cracked package or bypass policy.
+
+### The portable build does nothing when launched
+
+Confirm that the machine is Windows x64, the ZIP was fully extracted, and `ChatGPT.exe` remains beside its resource files. Read the exact endpoint-security alert. The portable build is a community repack; do not disable all protection to force it to run, and stop when the alert cannot be explained.
 
 ### PowerShell blocks a script
 
@@ -94,6 +98,9 @@ Already tried:
 
 - [OpenAI Docs: Windows app](https://learn.chatgpt.com/docs/windows/windows-app)
 - [OpenAI Docs: MCP](https://learn.chatgpt.com/docs/extend/mcp)
+- [Codex App Mirror Releases](https://github.com/Wangnov/codex-app-mirror/releases/latest)
+- [Codex portable repack Releases](https://github.com/WSGsety/rebuild-codex-desktop/releases)
+- [CC-Switch Releases](https://github.com/farion1231/cc-switch/releases/latest)
 - [Tool map](../../resources/tools.en.md)
 - Last verified: 2026-09-22
 

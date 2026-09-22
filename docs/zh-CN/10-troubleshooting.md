@@ -19,13 +19,17 @@
 
 ## 安装问题
 
-### Microsoft Store无法下载
+### GitHub Release下载慢或中断
 
-先检查网络、商店登录、系统更新和组织策略；可尝试官方文档提供的 `winget` 命令。确需社区镜像时核对架构、SHA256、Manifest和数字签名。组织策略阻止侧载时联系管理员。
+确认打开的是本仓库列出的项目Release，而不是搜索广告或转载站。可重新下载并用`SHA256SUMS.txt`检查文件；哈希不一致就删除损坏文件重下。不要为了提速转向无法核验来源的网盘包。
 
 ### MSIX无法安装
 
-常见原因是x64/ARM64不匹配、App Installer缺失、签名或设备策略。不要从不明站点下载“破解版”替代。
+常见原因是x64/ARM64不匹配、App Installer缺失、签名异常、AppX部署服务不可用或设备策略禁止侧载。先按[第02章](02-choose-and-install.md)重新核对架构、SHA256、manifest和数字签名。组织策略阻止时联系管理员，不要下载“破解版”或绕过策略。
+
+### 便携版双击没有反应
+
+确认使用的是Windows x64、ZIP已经完整解压、`ChatGPT.exe`与资源文件仍在同一目录，并查看安全软件给出的具体告警。便携版是社区重打包，不要通过关闭全部防护来强行运行；无法确认告警原因时停止使用。
 
 ### PowerShell脚本被阻止
 
@@ -94,6 +98,9 @@
 
 - [OpenAI Docs：Windows应用](https://learn.chatgpt.com/docs/windows/windows-app)
 - [OpenAI Docs：MCP](https://learn.chatgpt.com/docs/extend/mcp)
+- [Codex App Mirror Releases](https://github.com/Wangnov/codex-app-mirror/releases/latest)
+- [Codex便携重打包Releases](https://github.com/WSGsety/rebuild-codex-desktop/releases)
+- [CC-Switch Releases](https://github.com/farion1231/cc-switch/releases/latest)
 - [工具地图](../../resources/tools.md)
 - 最后核验：2026-09-22
 

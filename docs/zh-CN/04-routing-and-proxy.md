@@ -26,7 +26,7 @@ CPA在这里是项目简称，不是`.cpa`文件格式。
 
 ## CC-Switch安全上手
 
-1. 从 [farion1231/cc-switch](https://github.com/farion1231/cc-switch) 声明的官方渠道下载。
+1. 从 [CC-Switch最新Release](https://github.com/farion1231/cc-switch/releases/latest) 下载：Windows优先选`.msi`，便携使用选`Windows-Portable.zip`；macOS选`.dmg`；ARM64设备选名称明确带`arm64`的制品。
 2. 第一次切换前备份Codex及其他客户端配置。
 3. 先添加一个你能够独立验证的供应商。
 4. 使用占位结构理解字段：
@@ -81,7 +81,7 @@ CC-Switch还可以管理MCP、Skills和Prompts；不要一次同步全部内容�
 
 ## 来源与核验
 
-- [CC-Switch](https://github.com/farion1231/cc-switch)
+- [CC-Switch Releases](https://github.com/farion1231/cc-switch/releases/latest)
 - [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)
 - [Sub2API](https://github.com/Wei-Shaw/sub2api)
 - 最后核验：2026-09-22
